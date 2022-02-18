@@ -17,8 +17,9 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        val user = User("Metehan", "Bolat", 23, true)
-        binding.user = user
+        val data = DataModel("Metehan Bolat", "Android Developer", "https://i.postimg.cc/nr0fMmS3/Logo.png")
+        binding.dataModel = data
+
 
     }
 }
