@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="myUser"
+            type="com.metehanbolat.databindingdetails.User" />
+    </data>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@{myUser.firstName}"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="120dp" />
+</layout>
