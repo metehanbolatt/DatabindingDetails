@@ -18,5 +18,6 @@ class MainActivity : AppCompatActivity() {
 
         binding.user = myUser
 
+
     }
 }
