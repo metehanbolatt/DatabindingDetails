@@ -5,6 +5,7 @@
 
     <data>
         <import type="android.view.View" />
+        <import type="com.metehanbolat.databindingdetails.View" alias="MyView"/>
         <variable
             name="user"
             type="com.metehanbolat.databindingdetails.User" />
