@@ -8,6 +8,7 @@
         <import type="java.util.List" />
         <import type="com.metehanbolat.databindingdetails.User" />
         <import type="com.metehanbolat.databindingdetails.View" alias="MyView" />
+        <import type="com.metehanbolat.databindingdetails.MyUtilClass" />
         <variable
             name="user"
             type="User" />
@@ -25,7 +26,7 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:text="@{MyUtilClass.changeText(user.firstName)}"
             android:visibility="@{user.loggedIn ? View.VISIBLE : View.GONE}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
