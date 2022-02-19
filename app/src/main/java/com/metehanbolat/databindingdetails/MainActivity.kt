@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        val data = DataModel("Metehan Bolat", "Android Developer", "https://i.postimg.cc/nr0fMmS3/Logo.png")
+        val data = DataModel("Metehan Bolat", "Android Developer", "https://i.postimg.cc/nr0fMmS3/Logo.png", 12)
         binding.dataModel = data
 
 
